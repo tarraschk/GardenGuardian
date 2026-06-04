@@ -1,0 +1,19 @@
+# Secrets / config locale (NE JAMAIS committer)
+telegram_config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Médias générés (captures / vidéos d'alerte)
+*.mp4
+*.avi
+*.h264
+
+# Divers
+.DS_Store
+*.log

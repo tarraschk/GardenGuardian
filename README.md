@@ -1,10 +1,10 @@
-# GardenGuardian - Extended Pigeon Detection and Response
+# GardenGuardian - Extended AI-assisted Pigeon Detection and Response
 
 Système anti pigeon assisté par IA.
 
 L'outil repose sur une caméra dont les images sont analysées par IA, avec un pistolet à eau automatique contrôlé par un relai. Cette approche permet de déclencher un tir d'eau sur les cibles détectées (ici, des pigeons).
 
-Inspiré du [système viral Reddit r/SideProject](https://www.reddit.com/r/SideProject/comments/1s9ywir/automated_pigeon_defense_system/) (nov. 2025).
+Inspiré du thread [Reddit r/SideProject](https://www.reddit.com/r/SideProject/comments/1s9ywir/automated_pigeon_defense_system/) (nov. 2025).
 
 **Phase actuelle : prototype fonctionnel** (pas de boîtier étanche).
 
@@ -15,6 +15,18 @@ Prochaines étapes si intérêt du public : création d'un boîter étanche, ajo
 ![Test de suivi sur une personne](img/example_hunting_me.gif)
 
 ![Pigeon repoussé par le système](img/example_repelling_pigeon.gif)
+
+## Utilisation de l'IA
+
+Outre l'utilisation de l'IA dans la partie analyse d'image, ce projet a été entièrement géré à l'aide de Claude.
+
+Claude a permis de :
+- déterminer le matériel à acheter
+- préparer le câblage du matériel
+- programmer le matériel
+- préparer ce repo
+
+J'ai utilisé GardenGuardian comme un projet test sur les capacités d'une IA à agir dans le monde physique lorsqu'elle est assistée par un humain, et je n'ai pas été déçu :).
 
 ## Matériel
 
